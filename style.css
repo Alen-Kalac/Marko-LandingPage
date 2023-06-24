@@ -1,8 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/91d3afe918937141b6ae8e43b1005bc8?family=Sharp+Grotesk+Book+25);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Widy", Arial, sans-serif;
+  font-family: 'Sharp Grotesk', Arial, sans-serif;
+
 }
 .underlined{
 text-decoration: underline;
@@ -72,7 +74,7 @@ header {
   flex-direction: column;
 }
 .hero-text span {
-  font-size: 4.5vw;
+  font-size: 3.4vw;
   line-height: 6vw;
 }
 .hero-text-line {
