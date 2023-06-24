@@ -3,13 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sharp Grotesk', Arial, sans-serif;
+  font-family: 'Sharp Grotesk Book 25', Arial, sans-serif;
 
 }
 .underlined{
 text-decoration: underline;
-text-decoration-color:  var(--darkBlue);
+text-decoration-color:  black;
 text-decoration-skip-ink: none;
+text-underline-offset: 1vw;
 }
 body {
   background-color: var(--white-background);
@@ -69,10 +70,15 @@ header {
   width: 60%;
   height: 100%;
 }
-.hero-text {
+.hero-text  {
   display: flex;
   flex-direction: column;
 }
+.hero-text span{
+  font-family: 'Sharp Grotesk Medium 25', Arial, sans-serif;
+}
+
+
 .hero-text span {
   font-size: 3.4vw;
   line-height: 6vw;
@@ -117,7 +123,7 @@ header {
   margin: auto;
   border-radius: 50px;
   width: 90%;
-  height: 33vh;
+  padding: 3% 0px;
   background-color: var(--green);
   display: flex;
   flex-direction: column;
@@ -125,13 +131,12 @@ header {
   align-items: center;
 }
 .green-bubble span {
-  font-size: 3.2vw;
+  font-size: 3.1vw;
   line-height: 4vw;
-  letter-spacing: 0.3vw;
 }
 .offers {
   width: 100%;
-  height: calc(100vh);
+  height: calc(102vh);
 }
 .offers-content {
   width: 100%;
@@ -146,13 +151,12 @@ header {
   width: 100%;
   padding: 3% 5%;
   text-align: center;
-  font-size: 3.9vw;
+  font-size: 3.7vw;
   line-height: 3.6vw;
-  letter-spacing: 0.3vw;
 }
 .icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
 }
@@ -188,8 +192,7 @@ header {
 .outro-text span{
   width: 100%;
   text-align: center;
-  font-size: 3vw;
-  line-height: 3.6vw;
+  font-size: 2.8vw;
 }
 
 .testimonials{
@@ -220,7 +223,10 @@ header {
 }
 .review-left .testimonial-name {
   padding-top: 3%;
-  font-size: 2vw;
+  font-size: 1.7vw;
+}
+.review-left .title{
+  font-size: 0.9vw;
 }
 
 .review-right{
@@ -228,13 +234,15 @@ header {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .review-right .testimonial-comment{
   text-align: center;
+  font-size: 0.9vw;
   border: 2px solid var(--darkBlue);
   border-radius: 30px;
   padding: 3%;
-  max-width: 70%;
+  width: 90%;
   overflow:hidden;
   font-style: italic;
 }
@@ -247,9 +255,9 @@ header {
 .testimonial-text span{
   width: 100%;
   text-align: center;
-  font-size: 3.9vw;
-  letter-spacing: 0.5vw;
+  font-size: 3.2vw;
+  line-height: 3vw;
 }
 .line{
-  border-bottom: 4px solid var(--darkBlue);
+  border: 4px solid black;
 }
