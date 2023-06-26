@@ -1,0 +1,33 @@
+@media only screen and (max-width: 480px) {
+.hero-content{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.hero-button{
+    display: none;
+}
+.hero-content-left{
+    height:auto;
+    width: 100%;
+}
+.hero-text span {
+    text-align: center;
+    font-size: 6.1vw;
+    line-height: 9vw;
+}
+.hero-content-right{
+    height: 50%;
+    width: 100%;
+}
+.avatar{
+    height: 80%;
+}
+.green-bubble{
+    width: 100%;
+    border-radius: 20px;
+    padding: 2% 0%;
+}
+.green-bubble span{
+    font-size: 3.7vw;
+}
+  }
