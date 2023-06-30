@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: "Sharp Grotesk Book 25", Arial, sans-serif;
 }
-
+.hero-mobile{
+  display: none;
+}
 .underlined {
   text-decoration: underline;
   text-decoration-color: black;
