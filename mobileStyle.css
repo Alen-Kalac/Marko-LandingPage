@@ -29,7 +29,7 @@
     }
 
     .hero-mobile-avatar {
-        height: 90%;
+        height: 100%;
         object-fit: contain;
         background-image: url(Images/blobanimation.svg);
         background-repeat: no-repeat;
@@ -190,7 +190,9 @@
         line-height: 3vw;
 
     }
-
+.about-section{
+    height: auto;
+}
     .about-content {
         flex-direction: column-reverse;
     }
@@ -265,17 +267,28 @@
         object-fit: cover;
         padding-bottom: 10%;
     }
-
+    .calendly{
+        height: calc(100vh - 75px);
+        justify-content: center;
+    }
+    .calendly-text{
+        height: 40%;
+    }
     .calendly-title {
         font-size: 3.8vw;
     }
 
+    
     .calendly-description {
         font-size: 2vw;
     }
+    
 
     .calendly-button {
+        align-items: center;
+        justify-content: center;
         width: 80%;
+        aspect-ratio: 3/1;
         font-size: 3vw;
     }
 
