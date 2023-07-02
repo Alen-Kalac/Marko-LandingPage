@@ -303,7 +303,7 @@ align-items: center;
 }
 .reason .reason-description {
   border: 2px solid var(--green);
-  border-radius: 50px;
+  border-radius: 4vw;
   padding: 2%;
   width: 70%;
   font-size: 1.2vw;
