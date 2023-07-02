@@ -143,7 +143,6 @@
     .testimonials-bottom {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         justify-content: center;
         align-items: center;
 
@@ -151,7 +150,7 @@
 
     .testimonial-text {
         display: flex;
-        padding: 5% 0;
+        padding: 10% 0;
         flex-direction: column;
     }
 
