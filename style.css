@@ -438,3 +438,10 @@ align-items: center;
   background-color: transparent;
   color: var(--white-background);
 }
+
+
+.animated {
+  opacity: 0;
+  transform: translateY(300px);
+  transition: opacity 2s, transform 1s;
+}
